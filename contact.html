@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KC</title>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
@@ -18,35 +19,45 @@
           <p class="header-nav-subtitle">KHATHAWUT CHAIPRAPHUN</p>
           <div class="menu-centered">
             <ul class="menu">
-              <li><a href="index.html" class="header-nav-link is-active">PORTFOLIO</a></li>
+              <li><a href="index.html" class="header-nav-link">PORTFOLIO</a></li>
               <li><a href="about.html" class="header-nav-link">ABOUT</a></li>
-              <li><a href="contact.html" class="header-nav-link">CONTACT</a></li>
+              <li><a href="contact.html" class="header-nav-link is-active">CONTACT</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- content -->
+    <!-- body -->
     <div class="content">
-      <div class="row small-up-2 medium-up-3">
-        <div class="column column-block">
-          <a href="#"><img src="asset/img/a7.png" alt="" class="gallery"></a>
+      <div class="row">
+        <div class="small-12 medium-6 column">
+          <h1>Contact me!</h1>
+          <p class="intro-myself">
+            สนใจในผลงานของผม หรือ อยากติดต่อเพื่อทำงาน โดยใช้ช่องทางนี้เลยครับผม :)
+          </p>
         </div>
-        <div class="column column-block">
-          <a href="#"><img src="asset/img/a4.png" alt="" class="gallery"></a>
-        </div>
-        <div class="column column-block">
-          <a href="#"><img src="asset/img/a3.png" alt="" class="gallery"></a>
-        </div>
-        <div class="column column-block">
-          <a href="#"><img src="asset/img/a2.png" alt="" class="gallery"></a>
-        </div>
-        <div class="column column-block">
-          <a href="#"><img src="asset/img/a5.png" alt="" class="gallery"></a>
-        </div>
-        <div class="column column-block">
-          <a href="#"><img src="asset/img/a6.png" alt="" class="gallery"></a>
+        <div class="small-12 medium-6 column">
+          <form>
+            <div class="row">
+              <div class="medium-6 column">
+                <input type="text" placeholder="ชื่อ | Firstname" id="firstName" class="contact-form-field">
+              </div>
+              <div class="medium-6 column">
+                <input type="text" placeholder="นามสกุล | Lastname" id="lastName" class="contact-form-field">
+              </div>
+            </div>
+            <div class="row column">
+              <input type="text" placeholder="e-mail" id="email" class="contact-form-field">
+            </div>
+            <div class="row column">
+              <input type="text" placeholder="เรื่อง | Subject" id="email" class="contact-form-field">
+            </div>
+            <div class="row column">
+              <textarea name="message" id="message" placeholder="ข้อความ | message" cols="30" rows="10" class="contact-form-field"></textarea>
+            </div>
+            <input type="submit" value="submit" class="button contact-submit">
+          </form>
         </div>
       </div>
     </div>

@@ -1,12 +1,24 @@
 body {
   background-color: #FCFCFC;
   font-family: 'Josefin Sans', sans-serif;
-  margin: 3 rem;
+  margin: 3rem;
+  /*margin-left: inherit;*/
 }
 h1 {
   font-size: 1.3rem;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
+}
+form {
+  font-size:  1rem;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: .05rem;
+}
+.footer-menu:hover {
+  opacity: .5;
+}
+.gallery:hover {
+  opacity: .8;
 }
 .header-nav {
   text-align: center;
@@ -29,8 +41,37 @@ h1 {
 }
 .content {
   margin: 3rem 0;
-  /*margin-left: auto;
-  margin-right: 4rem;*/
+  /*width: 40rem;*/
+}
+.intro-myself {
+  font-size:  1rem;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: .05rem;
+}
+.img-info {
+  margin-bottom: 1.25rem;
+}
+.footer {
+  margin-bottom: 4rem;
+}
+.contact-form-field {
+  border-radius: .2rem;
+  border-color: #ccc;
+  box-shadow: gray;
+  background-color: #FCFCFC;
+}
+.contact-form-field:focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.contact-submit {
+  padding: .7rem 2rem;
+  text-transform: uppercase;
+  background-color: #000;
+  letter-spacing: .05rem;
+}
+.contact-submit:hover {
+  background-color: gray;
 }
 /*.header-nav img {
   margin-bottom: 1rem;

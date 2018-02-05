@@ -1,9 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.prog-bar {
+  margin: 3rem;
+}
 .skillbar {
   font-family: 'Open Sans', 'sans-serif';
 	position:relative;
 	display:block;
-	margin-bottom: 3rem;
+	margin-bottom: .5rem;
 	width:100%;
 	background:#eee;
 	height:25px;

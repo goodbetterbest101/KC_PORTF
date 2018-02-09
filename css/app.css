@@ -23,9 +23,9 @@
   transition: all 0.3s;
 }
 .item:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .prog-bar {
   margin: 3rem;
